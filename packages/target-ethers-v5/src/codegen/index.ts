@@ -7,7 +7,7 @@ import {
   EventDeclaration,
   FunctionDeclaration,
   StructType,
-} from 'typechain'
+} from 'swisstronik-typechain'
 
 import { FACTORY_POSTFIX, STRUCT_INPUT_POSTFIX } from '../common'
 import {

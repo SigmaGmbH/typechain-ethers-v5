@@ -8,7 +8,7 @@ import {
   getSignatureForFn,
   isConstant,
   isConstantFn,
-} from 'typechain'
+} from 'swisstronik-typechain'
 
 import { generateInputType, generateInputTypes, generateOutputTypes } from './types'
 
