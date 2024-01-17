@@ -1,5 +1,5 @@
 {
-  "name": "monorepo-base",
+  "name": "typechain-monorepo-base",
   "private": true,
   "license": "MIT",
   "engines": {
