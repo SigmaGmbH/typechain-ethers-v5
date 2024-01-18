@@ -35,17 +35,17 @@
   },
   "peerDependencies": {
     "@ethersproject/abi": "^5.0.0",
-    "@swisstronik/ethers-providers": "file:../../../ethers-publish/packages/providers",
-    "swisstronik-ethers": "file:../../../ethers-publish/packages/ethers",
+    "@swisstronik/ethers-providers": "0.0.1",
+    "swisstronik-ethers": "0.0.1",
     "swisstronik-typechain": "workspace:^8.3.2",
     "typescript": ">=4.3.0"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.0.0",
     "@ethersproject/bytes": "^5.0.0",
-    "@swisstronik/ethers-providers": "file:../../../ethers-publish/packages/providers",
+    "@swisstronik/ethers-providers": "0.0.1",
     "@types/lodash": "^4.14.139",
-    "swisstronik-ethers": "file:../../../ethers-publish/packages/ethers",
+    "swisstronik-ethers": "0.0.1",
     "test-utils": "1.0.0",
     "swisstronik-typechain": "workspace:^8.3.2",
     "typescript": ">=4.3.0",
