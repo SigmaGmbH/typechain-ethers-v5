@@ -69,9 +69,9 @@ importers:
       '@nomicfoundation/hardhat-ethers':
         specifier: ^3.0.0
         version: 3.0.5(ethers@6.10.0)(hardhat@2.19.4)
-      '@swisstronik/ethers-v5-typechain':
+      '@swisstronik/ethers-v5-swisstronik-typechain':
         specifier: workspace:^0.0.1
-        version: link:../target-ethers-v5
+        version: link:../target-swisstronik
       '@types/fs-extra':
         specifier: ^9.0.7
         version: 9.0.13
@@ -94,7 +94,7 @@ importers:
         specifier: ^4
         version: 4.9.5
 
-  packages/target-ethers-v5:
+  packages/target-swisstronik:
     dependencies:
       lodash:
         specifier: ^4.17.15
@@ -3174,6 +3174,7 @@ packages:
       is-hex-prefixed: 1.0.0
       strip-hex-prefix: 1.0.0
     dev: true
+    bundledDependencies: false
 
   /evp_bytestokey@1.0.3:
     resolution: {integrity: sha512-/f2Go4TognH/KvCISP7OUsHn85hT9nUkxxA9BEWxFn+Oj9o8ZNLm/40hdlgSLyuOimsrTKLUMEorQexp/aPQeA==}

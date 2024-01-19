@@ -12,7 +12,7 @@ export function findTarget(config: Config): TypeChainTarget {
   }
 
   const possiblePaths = [
-    `@typechain/${target}`, // external module
+    `@swisstronik/${target}`, // external module
     `typechain-target-${target}`, // external module
     ensureAbsPath(target), // path
   ]
