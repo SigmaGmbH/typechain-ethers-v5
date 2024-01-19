@@ -122,7 +122,7 @@ export function codegenContractTypings(contract: Contract, codegenConfig: Codege
 
   const imports = createImportsForUsedIdentifiers(
     {
-      'type ethers': [
+      'type swisstronik-ethers': [
         'BaseContract',
         'BigNumber',
         'BigNumberish',
@@ -136,7 +136,7 @@ export function codegenContractTypings(contract: Contract, codegenConfig: Codege
         'utils',
       ],
       'type @ethersproject/abi': ['FunctionFragment', 'Result', 'EventFragment'],
-      'type @ethersproject/providers': ['Listener', 'Provider'],
+      'type @swisstronik/ethers-providers': ['Listener', 'Provider'],
       [`type ${commonPath}`]: [...EVENT_IMPORTS],
     },
     source,
@@ -203,7 +203,7 @@ export function codegenContractFactory(
 
   const imports = createImportsForUsedIdentifiers(
     {
-      ethers: [
+      "swisstronik-ethers": [
         'Signer',
         'utils',
         'Contract',
@@ -213,7 +213,7 @@ export function codegenContractFactory(
         'BigNumberish',
         'Overrides',
       ],
-      'type @ethersproject/providers': ['Provider', 'TransactionRequest'],
+      'type @swisstronik/ethers-providers': ['Provider', 'TransactionRequest'],
     },
     source,
   )
@@ -224,8 +224,8 @@ export function codegenContractFactory(
 export function codegenAbstractContractFactory(contract: Contract, abi: any, moduleSuffix: string): string {
   const { body, header } = codegenCommonContractFactory(contract, abi, moduleSuffix)
   return `
-  import { Contract, Signer, utils } from "ethers";
-  import type { Provider } from "@ethersproject/providers";
+  import { Contract, Signer, utils } from "swisstronik-ethers";
+  import type { Provider } from "@swisstronik/ethers-providers";
   ${header}
 
   export class ${contract.name}${FACTORY_POSTFIX} {

@@ -1,5 +1,5 @@
 {
-  "name": "@swisstronik/ethers-v5-typechain",
+  "name": "@swisstronik/ethers-v5-swisstronik-typechain",
   "description": "🔌 TypeChain target for ethers-v5",
   "keywords": [
     "ethers",
