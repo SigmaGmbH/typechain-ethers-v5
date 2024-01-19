@@ -1,5 +1,5 @@
 {
-  "name": "@typechain/hardhat",
+  "name": "@swisstronik/hardhat-typechain",
   "description": "Zero-config TypeChain support for Hardhat",
   "keywords": [
     "TypeScript",
@@ -9,7 +9,8 @@
     "ethereum",
     "bindings",
     "smartcontract",
-    "blockchain"
+    "blockchain",
+    "swisstronik"
   ],
   "version": "9.1.0",
   "license": "MIT",
@@ -34,19 +35,19 @@
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-ethers": "^3.0.0",
-    "@typechain/ethers-v6": "workspace:^0.5.1",
+    "@swisstronik/ethers-v5-typechain": "workspace:^0.0.1",
     "@types/fs-extra": "^9.0.7",
     "@types/rimraf": "^3.0.0",
-    "ethers": "^6.1.0",
+    "swisstronik-ethers": "^0.0.1",
     "hardhat": "^2.9.9",
     "rimraf": "^3.0.2",
-    "typechain": "workspace:^8.3.2",
+    "swisstronik-typechain": "workspace:^0.0.1",
     "typescript": "^4"
   },
   "peerDependencies": {
-    "@typechain/ethers-v6": "workspace:^0.5.1",
-    "ethers": "^6.1.0",
+    "@swisstronik/ethers-v5-typechain": "workspace:^0.0.1",
+    "swisstronik-ethers": "^0.0.1",
     "hardhat": "^2.9.9",
-    "typechain": "workspace:^8.3.2"
+    "swisstronik-typechain": "workspace:^0.0.1"
   }
 }

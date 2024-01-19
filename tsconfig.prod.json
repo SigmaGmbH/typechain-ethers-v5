@@ -14,6 +14,7 @@
   "files": [],
   "references": [
     { "path": "./packages/typechain/tsconfig.build.json" },
+    { "path": "./packages/hardhat/tsconfig.build.json" },
     { "path": "./packages/target-ethers-v5/tsconfig.build.json" },
   ]
 }
