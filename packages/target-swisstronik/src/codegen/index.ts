@@ -203,7 +203,7 @@ export function codegenContractFactory(
 
   const imports = createImportsForUsedIdentifiers(
     {
-      "swisstronik-ethers": [
+      'swisstronik-ethers': [
         'Signer',
         'utils',
         'Contract',
